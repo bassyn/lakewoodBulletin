@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+
+.addListing {
+  width: 360px;
+  padding: 2% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  height: 600px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input[type="text"], .form select {
+    width: 190px;
+    height: 22px;
+    padding: 2px;
+    float: right;
+    font-size:14px;
+}
+.form input[type="submit"] {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #000033;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.form input[type="submit"]:hover, .form input[type="submit"]:active, .form input[type="submit"]:focus {
+  background: #31708f;
+}
+
+#addPhoto {
+  cursor: pointer;
+}
+textarea {
+    height: 118px;
+    width: 270px;
+}
+#contact{
+    width: 270px;
+}
+input[type="file"] {
+    width: 270px;
+    margin: 5px;
+}
+
+body {
+  background: #aaaaaa; /* fallback for old browsers */
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+
+@media (max-width: 767px) {
+   .addListing {
+	width: 85%;
+	margin: 0 auto;
+   }
+   .form {
+        padding: 15px;
+   }
+
+}
